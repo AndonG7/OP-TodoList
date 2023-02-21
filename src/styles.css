@@ -195,3 +195,7 @@ input:focus {
     border: none;
     border-radius: 5px;
 }
+
+.project:hover {
+    cursor: pointer;
+}
