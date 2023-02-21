@@ -1,0 +1,33 @@
+{
+  "name": "op-todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "git:commit": "cz",
+    "build": "./node_modules/.bin/webpack",
+    "build:watch": "./node_modules/.bin/webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndonG7/OP-TodoList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndonG7/OP-TodoList/issues"
+  },
+  "homepage": "https://github.com/AndonG7/OP-TodoList#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "jquery": "^3.6.3"
+  }
+}

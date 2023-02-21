@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+</head>
+<body>
+     <header>
+        <h1>Add Your To-Do item</h1>
+        <form class="ftodo">
+            <div class="inputs">
+                <div class="name">
+                    <label for="fname">Name:</label><br>
+                    <input type="text" class="fname" name="fname" value="Task Name Here..."><br>
+                </div>
+                <div class="description">
+                    <label for="fdescription">Description:</label><br>
+                    <input type="text" class="fdescription" name="fdescription" value="Description of your task..."><br>
+                </div>
+                <div class="date">
+                    <label for="fdate">Due Date:</label><br>
+                    <input type="text" class="fdate" name="fdate" value="Enter date"><br>
+                </div>
+                <div class="priority">
+                    <label for="fpriority">Priority:</label><br>
+                    <select name="fpriority" class="fpriority" form="ftodo"><br>
+                        <option value="default">Select</option>
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                      </select>
+                </div>
+            </div>
+        </form>
+        <button class="submit">Submit</button>
+     </header>
+     <div class="main">
+        <div class="projects">
+            <h2>Projects</h2>
+            <div class="projects-container">
+            </div>
+        </div>
+        <div class="tasks">
+            <h2>Tasks</h2>
+            <div class="tasks-container">
+            </div>
+        </div>
+     </div>
+     <div class="add-project-container">
+        <div class="add-project-form">
+            <h2>Name:</h2>
+            <input type="text" class="project-name" name="project-name">
+            <button class="enter">Enter</button>
+        </div>
+     </div>
+</body>
+<script src="bundle.js"></script>
+</html>
